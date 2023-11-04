@@ -1,0 +1,46 @@
+<section class="headline-section padding">
+    <h1>Griechischer Salat</h1>
+    <img src="./img/salad.jpg" alt="Griechischer Salat">
+    <div class="info-tag-line">
+        <span class="info-tag"><img src="./img/icons/clock-regular.svg" alt="Uhr">20 Min.</span>
+        <span class="info-tag"><img src="./img/icons/brain-solid.svg" alt="Uhr">einfach</span>
+        <span class="info-tag"><img src="./img/icons/calendar-alt-regular.svg" alt="Uhr">03.10.2023</span>
+    </div>
+</section>
+
+<section class="padding">
+    <div class="portion-line">
+        <div>
+            <label for="portion">Zutaten für</label>
+            <input type="number" name="portion" id="input" value="2" min="1" max="50">
+        </div>
+        <button class="button" onclick="calcPortion('salad')">Portionen</button>
+    </div>
+    <div>
+        <table id="salad">
+        </table>
+    </div>
+</section>
+
+<section class="padding">
+    <h3>Zubereitung</h3>
+    <div class="info-tag-line">
+        <span class="info-tag"><img src="./img/icons/clock-regular.svg" alt="Uhr">Arbeitszeit ca. 20 Minuten</span>
+        <span class="info-tag"><img src="./img/icons/clock-regular.svg" alt="Uhr">Gesamtzeit ca. 20 Minuten</span>
+    </div>
+    <p>Gurke waschen und ungeschält in dünne Scheiben oder Stücke schneiden. Paprika waschen, entkernen und in
+        dünne Streifen schneiden. Tomaten waschen und achteln. Zwiebeln schälen und in feine Ringe schneiden.
+        Schafskäse würfeln und mit Oregano bestreuen. Oliven abgießen und mit Gurke, Paprika, Tomaten, Zwiebeln
+        und Schafskäse in eine Schüssel geben. <br>
+        <br>
+        Olivenöl, Zitronensaft, Salz und Pfeffer zu einer Sauce verrühren und über den Salat gießen. Umrühren.
+    </p>
+</section>
+
+<section class=" padding">
+    <h3>erstellt von</h3>
+    <div class="created-by">
+        <img src="./img/passbild.png" alt="Profilbild">
+        <a onclick="changeContent('./content/about-us.html')" href="#">Regina</a>
+    </div>
+</section>

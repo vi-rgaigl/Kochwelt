@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kochwelt</title>
+  <link rel="icon" type="image/x-icon" href="./img/logo_small.png">
+  <link rel="stylesheet" href="./main.css" />
+  <script src="./script.js"></script>
+</head>
+
+<body onload="render('./content/home.html')">
+  <div class="body">
+    <header id="header" class="padding">
+      <a onclick="changeContent('./content/home.html')" href="#"><img src="./img/logo.png" alt="Kochwelt Logo" /></a>
+      <nav class="header-menu-mobile">
+        <a onclick="changeContent('./content/home.html')" href="#">Start</a>
+        <a onclick="changeContent('./content/spaghetti.html')" href="#">Rezept des Tages</a>
+        <a onclick="changeContent('./content/contact.html')" href="#">Kontakt</a>
+      </nav>
+      <div onclick="openMenu()" class="menu-mobile-img">
+      </div>
+      <div onclick="closeMenu()" id="menu-mobile" class="menu-mobile">
+        <a onclick="changeContent('./content/home.html'); closeMenu();" href="#">Start</a>
+        <a onclick="changeContent('./content/spaghetti.html'); closeMenu();" href="#">Rezept des Tages</a>
+        <a onclick="changeContent('./content/contact.html'); closeMenu();" href="#">Kontakt</a>
+        <a onclick="changeContent('./content/about-us.html'); closeMenu();" href="#">Über uns</a>
+        <a onclick="changeContent('./content/privacy.html'); closeMenu();" href="#">Datenschutz</a>
+        <a onclick="changeContent('./content/imprint.html'); closeMenu();" href="#">Impressum</a>
+      </div>
+    </header>
+
+    <main id="content"></main>
+
+    <footer class="padding">
+      <a href="#header"><img src="./img/logo_small.png"
+          alt="Kochwelt Logo" /></a>
+      <nav class="footer-link-mobile">
+        <a onclick="changeContent('./content/about-us.html')" href="#">Über mich</a>
+        <a onclick="changeContent('./content/privacy.html')" href="#">Datenschutz</a>
+        <a onclick="changeContent('./content/imprint.html')" href="#">Impressum</a>
+      </nav>
+    </footer>
+  </div>
+</body>
+
+</html>

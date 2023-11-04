@@ -1,0 +1,48 @@
+<section class="headline-section padding">
+    <h1>Kürbissuppe</h1>
+    <img src="./img/pumpkin-soup.jpg" alt="Kürbissuppe">
+    <div class="info-tag-line">
+        <span class="info-tag"><img src="./img/icons/clock-regular.svg" alt="Uhr">23 Min.</span>
+        <span class="info-tag"><img src="./img/icons/brain-solid.svg" alt="Uhr">normal</span>
+        <span class="info-tag"><img src="./img/icons/calendar-alt-regular.svg" alt="Uhr">20.09.2023</span>
+    </div>
+</section>
+
+<section class="padding">
+    <div class="portion-line">
+        <div>
+            <label for="portion">Zutaten für</label>
+            <input type="number" name="portion" id="input" value="4" min="1" max="50">
+        </div>
+        <button class="button" onclick="calcPortion('pumpkin')">Portionen</button>
+    </div>
+    <div>
+        <table id="pumpkin">
+        </table>
+    </div>
+</section>
+
+<section class="padding">
+    <h3>Zubereitung</h3>
+    <div class="info-tag-line">
+        <span class="info-tag"><img src="./img/icons/clock-regular.svg" alt="Uhr">Arbeitszeit ca. 25 Minuten</span>
+        <span class="info-tag"><img src="./img/icons/clock-regular.svg" alt="Uhr">Koch-/Backzeit ca. 30 Minuten</span>
+        <span class="info-tag"><img src="./img/icons/clock-regular.svg" alt="Uhr">Gesamtzeit ca. 55 Minuten</span>
+    </div>
+    <p>Kürbis, Möhren, Ingwer und Zwiebel schälen und würfeln, in der Butter andünsten. Mit der Brühe aufgießen
+        und in etwa 15 - 20 Minuten weich kochen. Dann sehr fein pürieren, eventuell durch ein Sieb streichen.
+        Die Kokosmilch unterrühren, mit Salz, Pfeffer, Sojasauce und Zitronensaft abschmecken und noch mal
+        erwärmen. Mit Korianderblättchen garniert <br>
+        <br>
+        Eine schnelle, leicht exotische Suppe, schön im Menü. Ich benutze für diese Suppe immer einen Hokkaido,
+        den muss man nicht schälen. In Thailand isst man Kürbissuppe mit kleinen Garnelen als Einlage.
+    </p>
+</section>
+
+<section class=" padding">
+    <h3>erstellt von</h3>
+    <div class="created-by">
+        <img src="./img/passbild.png" alt="Profilbild">
+        <a onclick="changeContent('./content/about-us.html')" href="#">Regina</a>
+    </div>
+</section>

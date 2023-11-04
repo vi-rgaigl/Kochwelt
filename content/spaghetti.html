@@ -1,0 +1,51 @@
+<section class="headline-section padding">
+    <h1>Spaghetti Bolognese</h1>
+    <img src="./img/spaghetti.png" alt="Spaghetti Bolognese">
+    <div class="info-tag-line">
+        <span class="info-tag"><img src="./img/icons/clock-regular.svg" alt="Uhr">20 Min.</span>
+        <span class="info-tag"><img src="./img/icons/brain-solid.svg" alt="Uhr">normal</span>
+        <span class="info-tag"><img src="./img/icons/calendar-alt-regular.svg" alt="Uhr">25.09.2023</span>
+    </div>
+</section>
+
+<section class="padding">
+    <div class="portion-line">
+        <div>
+            <label for="portion">Zutaten für</label>
+            <input type="number" name="portion" id="input" value="4" min="1" max="50">
+        </div>
+        <button class="button" onclick="calcPortion('spaghetti')">Portionen</button>
+    </div>
+    <div>
+        <table id="spaghetti"></table>
+    </div>
+</section>
+
+<section class="padding">
+    <h3>Zubereitung</h3>
+    <div class="info-tag-line">
+        <span class="info-tag"><img src="./img/icons/clock-regular.svg" alt="Uhr">Arbeitszeit ca. 20 Minuten</span>
+        <span class="info-tag"><img src="./img/icons/clock-regular.svg" alt="Uhr">Koch-/Backzeit ca. 45 Minuten</span>
+        <span class="info-tag"><img src="./img/icons/clock-regular.svg" alt="Uhr">Gesamtzeit ca. 1 Stunde 5 Minuten</span>
+    </div>
+    <p>Zwiebel, Knoblauch und Möhre schälen und in feine Würfel schneiden.
+
+        Hackfleisch in die Pfanne geben, langsam erhitzen und im eigenen Fett unter Rühren anbraten. Salzen und
+        pfeffern. Zwiebeln, Knoblauch und Möhren dazugeben und kurz mitbraten. Mit der Brühe ablöschen.
+        Dann Tomatenmark, Oregano, die stückigen Tomaten und Tomatenketchup unterrühren. Etwa 40 Minuten
+        einkochen lassen. <br>
+        <br>
+        Spaghetti in Salzwasser bissfest kochen. Durch ein Sieb abgießen, mit kaltem Wasser abschrecken und
+        zusammen mit der Sauce servieren. <br>
+        <br>
+        Tipp: Die Sauce Bolognese schmeckt auch lecker zu Reis.
+    </p>
+</section>
+
+<section class=" padding">
+    <h3>erstellt von</h3>
+    <div class="created-by">
+        <img src="./img/passbild.png" alt="Profilbild">
+        <a onclick="changeContent('./content/about-us.html')" href="#">Regina</a>
+    </div>
+</section>
